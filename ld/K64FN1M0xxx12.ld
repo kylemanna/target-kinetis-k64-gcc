@@ -9,7 +9,7 @@ MEMORY
   FLASH (rx)            : ORIGIN = 0x00000410, LENGTH = 0x00100000 - 0x00000410
   RAM_RESERVED (rwx)    : ORIGIN = 0x1FFF0000, LENGTH = 0x00000200
   RAM (rwx)             : ORIGIN = 0x1FFF0200, LENGTH = 0x00010000 - 0x00000200
-  RAM2 (rwx)            : ORIGIN = 0x20000000, LENGTH = 0x00030000 
+  RAM2 (rwx)            : ORIGIN = 0x20000000, LENGTH = 0x00010000 
 }
 
 /* Linker script to place sections and symbol values. Should be used together
